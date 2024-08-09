@@ -1,14 +1,36 @@
 @media screen and (max-width:320px){
-    
+*{
+    margin: 0px;
+    padding: 0px;
+}
     body{
-        background-color: rgb(0, 132, 255);
+        background-color: rgb(0, 23, 155);
+    }
+    .topo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     h1{
-        text-align: center;
         color: aliceblue;
         font-style: italic;
     }
     .botoes{
-        gap: 20px;
+        display: flex;
+        gap: 10px;
+    }
+    .corpo{
+    
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+        
+    }
+    .div1{
+        width: 2500px;
+        height: 100px;
+        background-color: rgb(0, 110, 255);   
     }
 }
